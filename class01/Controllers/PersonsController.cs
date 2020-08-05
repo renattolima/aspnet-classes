@@ -9,12 +9,12 @@ namespace class01.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CalculatorController : ControllerBase
+    public class PersonsController : ControllerBase
     {
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<PersonsController> _logger;
 
-        public CalculatorController(ILogger<WeatherForecastController> logger)
+        public PersonsController(ILogger<PersonsController> logger)
         {
             _logger = logger;
         }
